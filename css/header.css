@@ -1,0 +1,38 @@
+
+
+
+
+
+#headerOuter{background-color: white;}
+#header{height:110px;color: black;overflow: hidden; background-image: url(../img/bg_my.jpg); background-size: 100%}
+#header .head{float: left;height: 100%;}
+
+#header .head1{width: 180px;margin-left: 40px;}
+#header .head1 a{display: block;vertical-align: bottom;margin-top: 5px;}
+#header .head1 a img{width: 250px;}
+
+#header .head2{width: 200px;margin-left:55%;font-size: 16px;font-family: pts_w;}
+#header .head2>div{margin-top: 40px;}
+#header .head21{font-weight: bold;}
+#header .head21{margin-bottom: 1px;}
+#header .head22{color:#C40725;}
+#header .head23{width: 130px;margin-bottom: 4px;margin-top: 4px;border-top: 1px dashed #FF9900;}
+#header .head24{margin-top: 8px;	margin-bottom: 1px;}
+#header .head24 span{color:#C40725;}
+
+#header .head3{width: 559px;margin-left: 2px;position: relative;}
+#header .head31{margin-top: 52px;}
+#header .head31 div{display: table-cell;vertical-align: middle;}
+#header .head31 img {width: 32px;}
+#header .head312{padding-left: 12px;font-size: 18px;font-weight: bold;}
+#header .head312 span span{color:#F49F22;}
+#header .head32{position: absolute;top: 0px;right: 0px;}
+#header .head32 img{width: 460px;}
+
+
+
+
+
+
+
+

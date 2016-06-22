@@ -1,0 +1,147 @@
+
+.gallery{
+	margin-left: 20px; 
+}
+
+.galleryBorder
+{
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+	display: inline-block;
+	border: 1px solid #D5DBDC;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	width: 200px; 
+	height: 150px;
+	padding: 5px;
+	margin: 5px;
+}
+.galleryBorder img{
+	width: 200px;
+	height: 150px;
+	background-size: cover;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+/*.gallerySmall{
+	margin-top:auto;
+	margin-bottom:auto;
+	width: 150px; 
+	height: 100px;
+	background-image: url(../img/work/normal/Ligovskiy-1.jpg);
+	background-size: cover;
+}*/
+
+.imgGallery{
+	border: 1px solid #D5DBDC;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px; 
+	padding:3px;
+	margin:0px 10px 10px 0px; 
+}
+
+.content{
+display: table;
+padding: 35px 10px 75px 10px;
+}
+.content>div{
+vertical-align: top;
+}
+.blockLeft{
+display: table-cell;	
+width: 250px;
+margin-left: 0px;
+background: #F5F6F8;
+}
+.blockRight{
+display: table-cell;
+width: 720px;
+}
+.content>div{
+vertical-align: top;
+}
+
+.ismb{
+	text-align: center;
+}
+.ismb p{
+	text-indent: 20px;
+	padding-left: 20px;
+	text-align:left;
+}
+
+.titleISMB{
+	display:block;
+	text-align:center;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.ismb img{
+	margin-top:-10px;
+}
+
+
+/*left*/
+#menu_products{font-family:pts_n;background:#F5F6F8;color:#324363;/*border: 1px solid #DADADA;*/}
+#menu_products .section{padding-bottom: 4px;}
+#menu_products .cap{display: block;padding: 8px 0px 4px 10px;border-bottom: 1px solid #e97118;font-size: 14px;font-family: pts_nb;text-decoration: none;color: #636E84;background: #E8E8E8;}
+#menu_products .cap:hover{color: #e97118;}
+#menu_products .devices{font-size: 16px;padding: 4px 10px 4px 10px;}
+#menu_products .list{padding: 5px 0 5px 16px;margin: 0px;color: #e97118;}
+#menu_products .device{display: block;text-decoration: none;color: #324363;;}
+#menu_products .device:hover{color: #e97118;}
+#menu_products .device.active{color: #e97118;}
+#menu_products .seporator{border-top: 1px dotted #000000;margin: 0px 10px;}
+#logo_diameter{padding: 4px 10px 4px 18px;}
+#logo_diameter img{width: 110px;}
+
+
+
+/*right*/
+#devices{height: 100%;margin-left: 10px;}
+#devices .section{margin-bottom: 30px;}
+#devices .cap{width: 100%;height: 30px;margin-bottom: 30px;border-collapse: collapse;color:#324363;;}
+#devices .cap tr{background-color: #EBEBEB;}
+#devices .cap .block1{width: 60%;}
+#devices .cap .block1 span{padding-left: 20px;}
+#devices .cap .block2{width: 25%;background: #DADADA;text-align: center;border-left: 4px solid #B1B1B1;border-right: 4px solid #B1B1B1;}
+#devices .cap .block2 div{width: 100%;height: 22px;}
+#devices .cap .block2 img{height: 22px;}
+#devices .cap .block2 img.second{padding-left: 30px;}
+#devices .cap .block3{width: 15%;}
+
+
+#devices .device{width:100%;margin-bottom: 20px;color:#697386;border-collapse: collapse;}
+#devices .device .col1{width: 33.33%;}
+#devices .device .col2{width: 33.33%;}
+#devices .device .col3{width: 33.33%;}
+#devices .device a{color: #000000;text-decoration: none;}
+#devices .device a.a1{display: block;margin: 0 auto;}
+#devices .device a.a1 img{width:100%;/*image-rendering: pixelated;*/}
+#devices .device div.d2{margin-top: 15px;margin-bottom: 10px;text-align: center;}
+#devices .device a.a2{border-left: 1px solid #697386;padding-left:15px;padding-top: 2px;padding-bottom: 2px;}
+
+
+
+#devices .device .list{position:absolute;width:190px;padding: 8px 8px 8px 25px;margin: 0 0 0 10px;color:#e97118;font-family: pts_n;visibility:hidden;background-color:#fff;border:1px solid #e97118;}
+#devices .device .list li{padding: 4px 0;}
+#devices .device .list span{color:#000000;}
+#devices .device .blockHover{height: 100%;}
+#devices .device .blockHover:hover .list{visibility:visible;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

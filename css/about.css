@@ -1,0 +1,55 @@
+
+.content{
+padding: 50px 0 150px 0;
+}
+.blockLeft{
+float: left;	
+width: 650px;
+padding-left: 40px;
+}
+.blockRight{
+display: table;
+padding-left: 30px;
+}
+
+p{text-indent: 20px;}
+
+.blockLeft li{margin: 5px;}
+
+.blockLeft .cap{margin: 30px 0 10px 0;font-size: 18px;font-family: pts_n; }
+.blockLeft p{line-height: 18px;text-align: justify;}
+.blockLeft  .patent{display: block;margin: 5px;color: #5D7782;}
+#licence {padding-left: 50px; margin-top: 2px;}
+
+.blockRight .cap{font-size: 18px;font-family: pts_n;padding-left: 35px; text-align: right;}
+.blockRight header {padding-left: 70px; font-weight: bold}
+/*
+#material{margin: 10px 20px 0 12px;font-size: 12px;}
+#material a{display: inline-block;text-decoration: none;color: #5D7782;}
+#material .col1{display: table-cell;padding: 4px;}
+#material .col2{display: table-cell;}
+#material .col3{display: table-cell;vertical-align: middle;position: relative;}
+#material .col1 img{height: 10px;}
+#material .docList{display: none;}
+#material .docList.active{display: block;}
+#material .docList ul{margin: 0;padding: 0;margin-bottom: 10px;padding-left: 15px;list-style-type: none;}
+#material .docList li{padding-top: 7px;padding-bottom: 7px;padding-left: 5px;padding-right: 5px;}
+#material .colFlag, #material .colText{display: table-cell;}
+#material .docList li:not(.last){border-bottom: 1px dotted #5d7782;}
+#material .docLink:hover{text-decoration: underline;}
+#material .docLink img{height: 10px;margin-right: 4px;}
+#material a:hover{cursor: pointer;}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+
+/*вуаль*/
+#veil{
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0px;
+background: rgba(0,0,0,0.6);
+z-index: 100;
+}
+
+
+
+
+
+
+/*ќкно ќтправить вопрос и ќформить заказ*/
+.dlg_form_1{
+display: block;
+width: 630px;
+height: 480px;
+position: absolute;
+top: 250px;
+left: 0px;
+right: 0px;
+margin: auto;
+/*border: 1px solid #BEBEBE;*/
+background: #fff;
+/*box-shadow: 4px 4px 10px 0px #000;*/
+box-shadow: 6px 6px 14px 0px #000;
+font-size: 12px;
+z-index: 101;
+}
+.dlg_form_1 .outerDiv{display: table;margin-top: 10px;margin-left: 60px;}
+.dlg_form_1 .lineClose{height: 26px;}
+.dlg_form_1 .butClose{width: 26px;height: 26px;float: right;background: url('../img/icon_close.png');}
+.dlg_form_1 .butClose:hover{background: url('../img/icon_close_hover.png');cursor:pointer;}
+.dlg_form_1 .lineCap{color: #e97118;font-size: 18px;font-family: pts_n;}
+.dlg_form_1 .comments{margin-top:16px;font-size: 12px;font-family: pts_n;}
+.dlg_form_1 .innerDiv{display: table;margin-top: 10px;padding: 30px 80px;background: #EBEBEB;}
+.dlg_form_1 .innerDiv td{}
+.dlg_form_1 .innerDiv .label{color: #F19653;font-size: 18px;}
+.dlg_form_1 .innerDiv td:nth-child(3){padding-left: 20px;}
+.dlg_form_1 .innerDiv input, .innerDiv textarea{
+width: 100%;
+height: 24px;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-left: 2px;
+padding-right: 2px;
+border: 1px solid #A9A9A9;
+font-size: 12px;
+color: #424242;
+}
+.dlg_form_1 .innerDiv textarea{height: 100px;resize: none;}
+.dlg_form_1 .butLine {height: 35px;margin-top: 35px;}
+.dlg_form_1 .error {float: left;margin-left: 12px;color: #F00;}
+.dlg_form_1 .innerDiv .butSend{float:right;padding: 10px 30px;cursor: pointer;color: #ffffff;background: #F19653;}
+.dlg_form_1 .innerDiv .butSend:hover{background: #e97118;}
+.dlg_form_1 .msg {
+margin-top: 150px;
+padding: 0 20px;
+text-align: center;
+font-size: 20px;
+color: #e97118;
+/*text-decoration: underline;*/
+}
+
+
+/*ќкно ќформить заказ*/
+#dlgMakeOrder{height: 490px;}
+
+
+
+
+
+
+	
+	
+	
+	
+
